@@ -1,0 +1,52 @@
+<div id="parent" class="container parent full-width no-padding no-margin" (scroll)="scrollByPage($event)">
+  <div class="row no-margin">
+    <div class="col-lg-6 col-md-6 col-sm-12 slant-left">
+      <div class="display-picture">
+        <img src="../../assets/images/profileAvatar.png" />
+      </div>
+      <div class="primary-information">
+        <p class="animated bounceInLeft delay-5s">
+          <span> Name: </span> Xyz Q. Abcd</p>
+        <p class="animated bounceInLeft">
+          <span> DOB : </span> DD/MM/YYYY</p>
+        <p class="animated bounceInLeft">
+          <span> Qualification: </span> BE (Computer Science)</p>
+      </div>
+    </div>
+
+    <div class="col-lg-6 col-md-6 col-sm-12 slant-right">
+      <ul>
+        <li class="animated bounceInRight" [ngStyle]="{'background-color':'#007BB5A2'}">
+          <a href="http://www.linkedin.com">
+            <img src="../../assets/images/linkedin.svg" [ngStyle]="{'background-color':'#007BB5'}" />
+            <span>http://www.linkedin.com</span>
+          </a>
+        </li>
+        <li class="animated bounceInRight" [ngStyle]="{'background-color':'rgba(0, 216, 169, 0.474)'} ">
+          <a>
+            <img src="../../assets/images/playstore.svg" [ngStyle]="{'background-color':'rgb(255, 254, 225)'}" />
+            <span>http://www.playstore.com</span>
+          </a>
+        </li>
+        <li class="animated bounceInRight" [ngStyle]="{'background-color':'#2DAAE1A2'} ">
+          <a>
+            <img src="../../assets/images/twitter.svg" [ngStyle]="{'background-color':'#2DAAE1'}" />
+            <span>http://www.twitter.com</span>
+          </a>
+        </li>
+        <li class="animated bounceInRight" [ngStyle]="{'background-color':'#3C5A99A2'}">
+          <a>
+            <img src="../../assets/images/facebook.svg" [ngStyle]="{'background-color':'#3C5A99'}" />
+            <span>http://www.facebook.com</span>
+          </a>
+        </li>
+        <li>
+          <img class="quote-mark" src="../../assets/images/quotation-mark.svg" /> I'm not a great programmer; I'm just a good programmer with great habits.
+          <img class="quote-mark-reverse" src="../../assets/images/quotation-mark.svg" />
+          <p class="align-right"><b>-Kent Beck</b></p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div id="foo" class="full-height"></div>
